@@ -3,8 +3,8 @@ version: '2'
 services:
   ddns:
     environment:
-      DDNS_DOMAIN: d.example.net                      # <<< ADJUST DOMAIN
-      DDNS_SOA_DOMAIN: ddns.example.net               # <<< ADJUST DOMAIN
+      DDNS_DOMAIN: d.serverfrank.de                      # <<< ADJUST DOMAIN
+      DDNS_SOA_DOMAIN: ddns.serverfrank.de               # <<< ADJUST DOMAIN
       DDNS_EXPIRATION_DAYS: 10
 
   powerdns:
